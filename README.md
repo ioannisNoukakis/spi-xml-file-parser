@@ -6,11 +6,11 @@ specification for more information about SPI files.
 
 ## Installation
 
-    npm i --save spi_file_parser
+    npm i --save spi_xml_file_parser
 
 ## Usage
 
-    import {parse} from "spi_file_parser";
+    import {parse} from "spi_xml_file_parser/artifacts/src/parser";;
     
     const parsed = parse(xmlFile);
 

@@ -8,3 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Parsing capabilities for SPI XML files.
 - Simple tests covering the most frequent use cases.
+
+## [1.0.1] - 2019-02-04
+### Changed
+- files included in release + package.json.

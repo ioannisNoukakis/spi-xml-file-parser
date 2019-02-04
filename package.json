@@ -1,7 +1,7 @@
 {
   "name": "spi_xml_file_parser",
   "description": "This TypeScript library provides utilities to parse a whole SPI file as well as parts of it. Please refer to the https://www.etsi.org/deliver/etsi_TS/102800_102899/102818/03.01.01_60/ts_102818v030101p.pdf specification for more information about SPI files.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "scripts": {
     "build": "tsc",
@@ -9,6 +9,29 @@
     "test": "npx jest",
     "lint": "tslint -c tslint.json 'src/**/*.ts'"
   },
+  "files": [
+    "artifacts/src/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ioannisNoukakis/spi-xml-file-parser.git"
+  },
+  "keywords": [
+    "npm",
+    "module",
+    "node",
+    "javascript",
+    "typescript",
+    "ebu",
+    "european broadcasting union",
+    ""
+  ],
+  "author": "Ioannis Noukakis <inoukakis@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ioannisNoukakis/spi-xml-file-parser/issues"
+  },
+  "homepage": "https://github.com/ioannisNoukakis/spi-xml-file-parser#readme",
   "dependencies": {
     "xml-js": "1.6.8"
   },
