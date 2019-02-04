@@ -1,0 +1,23 @@
+{
+  "name": "spi_xml_file_parser",
+  "description": "This TypeScript library provides utilities to parse a whole SPI file as well as parts of it. Please refer to the https://www.etsi.org/deliver/etsi_TS/102800_102899/102818/03.01.01_60/ts_102818v030101p.pdf specification for more information about SPI files.",
+  "version": "1.0.0",
+  "private": false,
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "test": "npx jest",
+    "lint": "tslint -c tslint.json 'src/**/*.ts'"
+  },
+  "dependencies": {
+    "xml-js": "1.6.8"
+  },
+  "devDependencies": {
+    "@types/jest": "23.3.13",
+    "@types/xml-js": "1.0.0",
+    "jest": "23.6.0",
+    "ts-jest": "23.10.5",
+    "tslint": "5.11.0",
+    "typescript": "3.2.2"
+  }
+}
