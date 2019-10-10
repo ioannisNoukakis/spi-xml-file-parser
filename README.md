@@ -1,3 +1,6 @@
+# Outdated! 
+PRs are wellcome.
+
 # Service Program Information (SPI) XML parser
 
 This TypeScript library provides utilities to parse a whole SPI file as well as parts of it.
